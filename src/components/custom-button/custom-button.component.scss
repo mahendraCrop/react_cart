@@ -1,0 +1,78 @@
+$min-width: 165px;
+$width: auto;
+$height: 50px;
+$letter-spacing: 0.5px;
+$line-height: 50px;
+$padding: 0 35px 0 35px;
+$font-size: 15px;
+$text-transform: uppercase;
+$font-family: 'Open Sans Condensed';
+$font-weight: bolder;
+$border: none;
+$cursor: pointer;
+
+    .custom-button {
+        min-width: $min-width;
+        width:$width;
+        height: $height;
+        letter-spacing: $letter-spacing;
+        line-height: $line-height;
+        padding:  $padding;
+        font-size: $font-size;
+        background-color: black;
+        color: white;
+        text-transform: $text-transform;
+        font-family: $font-family;
+        font-weight: $font-weight;
+        border: $border;
+        cursor: $cursor;
+    
+        &:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        }
+
+        .googleSignin{
+            
+                min-width: $min-width;
+                width:$width;
+                height: $height;
+                letter-spacing: $letter-spacing;
+                line-height: $line-height;
+                padding:  $padding;
+                font-size: $font-size;
+                margin-left: $font-size;
+                background-color: rgb(122, 221, 235);
+                color: rgb(119, 74, 74);
+                text-transform:$text-transform;
+                font-family: $font-family;
+                font-weight: $font-weight;
+                border: $border;
+                cursor: $cursor;
+                display: flex;
+                justify-content: center;
+            
+                &:hover {
+                background-color: white;
+                color: black;
+                border: 1px solid black;
+                }
+                    
+                
+        }
+
+        .inverted{
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            &:hover {
+                background-color: black;
+            color: white;
+            border: 1px solid none;
+            }
+        }
+    }
+
+
+    
